@@ -10,6 +10,10 @@
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
 		2F98D68224C9AAE500613A4C /* IntelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D68124C9AAE400613A4C /* IntelTest.swift */; };
+		4C0C217E2ABA475B00833A7C /* MacOSX_iOS in Resources */ = {isa = PBXBuildFile; fileRef = 4C0C217D2ABA475B00833A7C /* MacOSX_iOS */; };
+		4C0C21802ABA48E000833A7C /* libEntrustIGMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0C217F2ABA48E000833A7C /* libEntrustIGMobileSDK.a */; };
+		4C0C21822ABA4B8200833A7C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0C21812ABA4B8100833A7C /* Security.framework */; };
+		4C0C21842ABA4FE600833A7C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C0C21832ABA4FE600833A7C /* libz.tbd */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
 		50ADFF97201F53D600D50D53 /* IntelTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* IntelTestTests.swift */; };
 		50ADFF99201F53D600D50D53 /* IntelTestPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* IntelTestPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +35,11 @@
 /* Begin PBXFileReference section */
 		2F98D68124C9AAE400613A4C /* IntelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntelTest.swift; sourceTree = "<group>"; };
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0C217D2ABA475B00833A7C /* MacOSX_iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; path = MacOSX_iOS; sourceTree = "<group>"; };
+		4C0C217F2ABA48E000833A7C /* libEntrustIGMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEntrustIGMobileSDK.a; path = Plugin/MacOSX_iOS/lib_iOS/Release/libEntrustIGMobileSDK.a; sourceTree = "<group>"; };
+		4C0C21812ABA4B8100833A7C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4C0C21832ABA4FE600833A7C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4C0C21852ABA537C00833A7C /* IntelTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntelTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF8B201F53D600D50D53 /* IntelTestPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntelTestPlugin.h; sourceTree = "<group>"; };
 		50ADFF8C201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,7 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0C21842ABA4FE600833A7C /* libz.tbd in Frameworks */,
+				4C0C21822ABA4B8200833A7C /* Security.framework in Frameworks */,
 				50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */,
+				4C0C21802ABA48E000833A7C /* libEntrustIGMobileSDK.a in Frameworks */,
 				03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,11 +104,13 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				4C0C217D2ABA475B00833A7C /* MacOSX_iOS */,
 				50E1A94720377CB70090CE1A /* IntelTestPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* IntelTest.swift */,
 				50ADFF8B201F53D600D50D53 /* IntelTestPlugin.h */,
 				50ADFFA72020EE4F00D50D53 /* IntelTestPlugin.m */,
 				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				4C0C21852ABA537C00833A7C /* IntelTest-Bridging-Header.h */,
 			);
 			path = Plugin;
 			sourceTree = "<group>";
@@ -124,6 +138,9 @@
 		A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C0C21832ABA4FE600833A7C /* libz.tbd */,
+				4C0C21812ABA4B8100833A7C /* Security.framework */,
+				4C0C217F2ABA48E000833A7C /* libEntrustIGMobileSDK.a */,
 				50ADFFA52020D75100D50D53 /* Capacitor.framework */,
 				3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */,
 				F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */,
@@ -230,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0C217E2ABA475B00833A7C /* MacOSX_iOS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,16 +487,35 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"\"$(SRCROOT)/Plugin/MacOSX_iOS/lib_iOS/Release\"",
+					"$(PROJECT_DIR)/Plugin/MacOSX_iOS/lib_iOS/Release",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/isdmanager/Documents/inteltest/ios/Plugin/IntelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Plugin/MacOSX_iOS/include\"";
 			};
 			name = Debug;
 		};
@@ -495,15 +532,34 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}\"",
+					/usr/lib/swift,
+					"\"$(SRCROOT)/Plugin/MacOSX_iOS/lib_iOS/Release\"",
+					"$(PROJECT_DIR)/Plugin/MacOSX_iOS/lib_iOS/Release",
+				);
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Capacitor\"",
+					"-framework",
+					"\"Cordova\"",
+					"-framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/isdmanager/Documents/inteltest/ios/Plugin/IntelTest-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Plugin/MacOSX_iOS/include\"";
 			};
 			name = Release;
 		};

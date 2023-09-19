@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2788FC6718081D6200526354 /* OTPSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC6618081D6200526354 /* OTPSDKCommand.m */; };
+		2788FC6A180829A600526354 /* PollSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC69180829A600526354 /* PollSDKCommand.m */; };
+		2788FC6D180840A300526354 /* InfoSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC6C180840A300526354 /* InfoSDKCommand.m */; };
+		2788FC70180843D800526354 /* UnlockSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC6F180843D800526354 /* UnlockSDKCommand.m */; };
+		2788FC731808527D00526354 /* CreateSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC721808527D00526354 /* CreateSDKCommand.m */; };
+		2788FC761808561000526354 /* RegisterSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788FC751808561000526354 /* RegisterSDKCommand.m */; };
+		279D4480180B3121000E65E7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279D447F180B3121000E65E7 /* IOKit.framework */; };
+		27A3360C1804E20D00C98476 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A3360B1804E20D00C98476 /* Security.framework */; };
+		27A3365C1805D2AF00C98476 /* SDKCommandLineApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A3365B1805D2AF00C98476 /* SDKCommandLineApp.m */; };
+		27A3366318071FB900C98476 /* ResetSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A3366218071FB900C98476 /* ResetSDKCommand.m */; };
+		27A3366618071FE300C98476 /* BaseSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A3366518071FE300C98476 /* BaseSDKCommand.m */; };
+		27A336691807211300C98476 /* SDKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A336681807211300C98476 /* SDKUtils.m */; };
+		2D8BE5FA193E4E8B00950F01 /* libEntrustIGMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8BE5F9193E4E8B00950F01 /* libEntrustIGMobileSDK.a */; };
+		2DD2088719363F29009EAAEF /* OfflineSDKCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD2088619363F29009EAAEF /* OfflineSDKCommand.m */; };
+		2DD563CE1935125E00D6E43B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD563CD1935125E00D6E43B /* libz.dylib */; };
+		8DD76F9A0486AA7600D96B5E /* SDKCommandLineExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* SDKCommandLineExample.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* SDKCommandLineExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKCommandLineExample.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2788FC6518081D6200526354 /* OTPSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPSDKCommand.h; sourceTree = "<group>"; };
+		2788FC6618081D6200526354 /* OTPSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPSDKCommand.m; sourceTree = "<group>"; };
+		2788FC68180829A600526354 /* PollSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PollSDKCommand.h; sourceTree = "<group>"; };
+		2788FC69180829A600526354 /* PollSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PollSDKCommand.m; sourceTree = "<group>"; };
+		2788FC6B180840A300526354 /* InfoSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoSDKCommand.h; sourceTree = "<group>"; };
+		2788FC6C180840A300526354 /* InfoSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoSDKCommand.m; sourceTree = "<group>"; };
+		2788FC6E180843D800526354 /* UnlockSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockSDKCommand.h; sourceTree = "<group>"; };
+		2788FC6F180843D800526354 /* UnlockSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockSDKCommand.m; sourceTree = "<group>"; };
+		2788FC711808527D00526354 /* CreateSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateSDKCommand.h; sourceTree = "<group>"; };
+		2788FC721808527D00526354 /* CreateSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateSDKCommand.m; sourceTree = "<group>"; };
+		2788FC741808561000526354 /* RegisterSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterSDKCommand.h; sourceTree = "<group>"; };
+		2788FC751808561000526354 /* RegisterSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterSDKCommand.m; sourceTree = "<group>"; };
+		279D447F180B3121000E65E7 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		27A3360B1804E20D00C98476 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		27A3365A1805D2AF00C98476 /* SDKCommandLineApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKCommandLineApp.h; sourceTree = "<group>"; };
+		27A3365B1805D2AF00C98476 /* SDKCommandLineApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKCommandLineApp.m; sourceTree = "<group>"; };
+		27A3366018071EAD00C98476 /* SDKCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKCommand.h; sourceTree = "<group>"; };
+		27A3366118071FB900C98476 /* ResetSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetSDKCommand.h; sourceTree = "<group>"; };
+		27A3366218071FB900C98476 /* ResetSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetSDKCommand.m; sourceTree = "<group>"; };
+		27A3366418071FE300C98476 /* BaseSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSDKCommand.h; sourceTree = "<group>"; };
+		27A3366518071FE300C98476 /* BaseSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSDKCommand.m; sourceTree = "<group>"; };
+		27A336671807211200C98476 /* SDKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKUtils.h; sourceTree = "<group>"; };
+		27A336681807211300C98476 /* SDKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKUtils.m; sourceTree = "<group>"; };
+		2D8BE5F9193E4E8B00950F01 /* libEntrustIGMobileSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEntrustIGMobileSDK.a; sourceTree = "<group>"; };
+		2DD2088519363F29009EAAEF /* OfflineSDKCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineSDKCommand.h; sourceTree = "<group>"; };
+		2DD2088619363F29009EAAEF /* OfflineSDKCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineSDKCommand.m; sourceTree = "<group>"; };
+		2DD563CD1935125E00D6E43B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		32A70AAB03705E1F00C91783 /* SDKCommandLineExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKCommandLineExample_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* SDKCommandLineExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDKCommandLineExample; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD563CE1935125E00D6E43B /* libz.dylib in Frameworks */,
+				279D4480180B3121000E65E7 /* IOKit.framework in Frameworks */,
+				27A3360C1804E20D00C98476 /* Security.framework in Frameworks */,
+				2D8BE5FA193E4E8B00950F01 /* libEntrustIGMobileSDK.a in Frameworks */,
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* SDKCommandLineExample */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = SDKCommandLineExample;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2788FC77180883AC00526354 /* Commands */,
+				27A3365A1805D2AF00C98476 /* SDKCommandLineApp.h */,
+				27A3365B1805D2AF00C98476 /* SDKCommandLineApp.m */,
+				08FB7796FE84155DC02AAC07 /* SDKCommandLineExample.m */,
+				32A70AAB03705E1F00C91783 /* SDKCommandLineExample_Prefix.pch */,
+				27A336671807211200C98476 /* SDKUtils.h */,
+				27A336681807211300C98476 /* SDKUtils.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2DD563CD1935125E00D6E43B /* libz.dylib */,
+				279D447F180B3121000E65E7 /* IOKit.framework */,
+				27A3360B1804E20D00C98476 /* Security.framework */,
+				2D8BE5F9193E4E8B00950F01 /* libEntrustIGMobileSDK.a */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* SDKCommandLineExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2788FC77180883AC00526354 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				27A3366418071FE300C98476 /* BaseSDKCommand.h */,
+				27A3366518071FE300C98476 /* BaseSDKCommand.m */,
+				2788FC711808527D00526354 /* CreateSDKCommand.h */,
+				2788FC721808527D00526354 /* CreateSDKCommand.m */,
+				2788FC6B180840A300526354 /* InfoSDKCommand.h */,
+				2788FC6C180840A300526354 /* InfoSDKCommand.m */,
+				2788FC6518081D6200526354 /* OTPSDKCommand.h */,
+				2788FC6618081D6200526354 /* OTPSDKCommand.m */,
+				2788FC68180829A600526354 /* PollSDKCommand.h */,
+				2788FC69180829A600526354 /* PollSDKCommand.m */,
+				2788FC741808561000526354 /* RegisterSDKCommand.h */,
+				2788FC751808561000526354 /* RegisterSDKCommand.m */,
+				27A3366118071FB900C98476 /* ResetSDKCommand.h */,
+				27A3366218071FB900C98476 /* ResetSDKCommand.m */,
+				27A3366018071EAD00C98476 /* SDKCommand.h */,
+				2788FC6E180843D800526354 /* UnlockSDKCommand.h */,
+				2788FC6F180843D800526354 /* UnlockSDKCommand.m */,
+				2DD2088519363F29009EAAEF /* OfflineSDKCommand.h */,
+				2DD2088619363F29009EAAEF /* OfflineSDKCommand.m */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F960486AA7600D96B5E /* SDKCommandLineExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SDKCommandLineExample" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKCommandLineExample;
+			productInstallPath = "$(HOME)/bin";
+			productName = SDKCommandLineExample;
+			productReference = 8DD76FA10486AA7600D96B5E /* SDKCommandLineExample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Entrust Inc.";
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SDKCommandLineExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* SDKCommandLineExample */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* SDKCommandLineExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2788FC6D180840A300526354 /* InfoSDKCommand.m in Sources */,
+				27A3365C1805D2AF00C98476 /* SDKCommandLineApp.m in Sources */,
+				2788FC731808527D00526354 /* CreateSDKCommand.m in Sources */,
+				2788FC6A180829A600526354 /* PollSDKCommand.m in Sources */,
+				2788FC761808561000526354 /* RegisterSDKCommand.m in Sources */,
+				27A3366318071FB900C98476 /* ResetSDKCommand.m in Sources */,
+				2788FC70180843D800526354 /* UnlockSDKCommand.m in Sources */,
+				8DD76F9A0486AA7600D96B5E /* SDKCommandLineExample.m in Sources */,
+				27A3366618071FE300C98476 /* BaseSDKCommand.m in Sources */,
+				2788FC6718081D6200526354 /* OTPSDKCommand.m in Sources */,
+				2DD2088719363F29009EAAEF /* OfflineSDKCommand.m in Sources */,
+				27A336691807211300C98476 /* SDKUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Debug";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SDKCommandLineExample_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Debug",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = SDKCommandLineExample;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/include";
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Release";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SDKCommandLineExample_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Release",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = SDKCommandLineExample;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/include";
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Debug\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/include\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../SDK/IGMobileSDK/MacOSX_iOS/lib_MacOSX/Debug\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "SDKCommandLineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "SDKCommandLineExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

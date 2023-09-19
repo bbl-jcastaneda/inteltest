@@ -1,5 +1,9 @@
 #import <UIKit/UIKit.h>
-
+#import "ETIdentity.h"
+#import "ETIdentityProvider.h"
+#import "ETSoftTokenSDK.h"
+#import "ETTransaction.h"
+#import "Intellitrust.m"
 //! Project version number for Plugin.
 FOUNDATION_EXPORT double PluginVersionNumber;
 

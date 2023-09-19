@@ -1,0 +1,60 @@
+
+/* Class = "UIButton"; normalTitle = "Photo detection"; ObjectID = "5uh-cC-SZW"; */
+"5uh-cC-SZW.normalTitle" = "Detector de fotografía";
+
+/* Class = "UINavigationItem"; title = "Liveness"; ObjectID = "8rU-xt-WvL"; */
+"8rU-xt-WvL.title" = "Liveness";
+
+/* Class = "UIButton"; normalTitle = "Authenticate"; ObjectID = "CQh-ag-4PQ"; */
+"CQh-ag-4PQ.normalTitle" = "Autenticar";
+
+/* Class = "UITextField"; placeholder = "Type your name"; ObjectID = "Iuh-Zq-f6R"; */
+"Iuh-Zq-f6R.placeholder" = "Escribe tu nombre";
+
+/* Class = "UIViewController"; title = "AddUserView"; ObjectID = "JP1-V2-pKp"; */
+"JP1-V2-pKp.title" = "AddUserView";
+
+/* Class = "UIViewController"; title = "LivenessView"; ObjectID = "Mpl-Ew-Llp"; */
+"Mpl-Ew-Llp.title" = "LivenessView";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "Q4m-Xb-mEu"; */
+"Q4m-Xb-mEu.text" = "Cargando...";
+
+/* Class = "UILabel"; text = "User name"; ObjectID = "RA7-uE-eem"; */
+"RA7-uE-eem.text" = "Usuario";
+
+/* Class = "UIButton"; normalTitle = "Authenticate"; ObjectID = "aFw-nY-xHg"; */
+"aFw-nY-xHg.normalTitle" = "Autenticar";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "e2l-ZV-eHk"; */
+"e2l-ZV-eHk.text" = "Nombre";
+
+/* Class = "UILabel"; text = "Loading..."; ObjectID = "ft9-fK-9jg"; */
+"ft9-fK-9jg.text" = "Cargando...";
+
+/* Class = "UIButton"; normalTitle = "Create user"; ObjectID = "gRE-Gq-hfs"; */
+"gRE-Gq-hfs.normalTitle" = "Crear usuario";
+
+/* Class = "UIButton"; normalTitle = "Authenticate"; ObjectID = "glR-Ne-8cE"; */
+"glR-Ne-8cE.normalTitle" = "Autenticar";
+
+/* Class = "UINavigationItem"; title = "Create user"; ObjectID = "hmC-q5-UFH"; */
+"hmC-q5-UFH.title" = "Crear usuario";
+
+/* Class = "UINavigationItem"; title = "Authenticate"; ObjectID = "jND-ly-EFC"; */
+"jND-ly-EFC.title" = "Autenticar";
+
+/* Class = "UIViewController"; title = "AuthenticateView"; ObjectID = "jsn-H2-xv9"; */
+"jsn-H2-xv9.title" = "AuthenticateView";
+
+/* Class = "UIButton"; normalTitle = "Add new User"; ObjectID = "pHM-nV-9GT"; */
+"pHM-nV-9GT.normalTitle" = "Nuevo usuario";
+
+/* Class = "UINavigationItem"; title = "Program Example"; ObjectID = "s4K-5g-5xN"; */
+"s4K-5g-5xN.title" = "Ejemplo de programación";
+
+/* Class = "UILabel"; text = "User name"; ObjectID = "uym-xW-fua"; */
+"uym-xW-fua.text" = "Usuario";
+
+/* Class = "UIButton"; normalTitle = "Tutorial"; ObjectID = "ymw-MU-cFv"; */
+"ymw-MU-cFv.normalTitle" = "Tutorial";

@@ -1,0 +1,15 @@
+"Ok" = "Ok";
+"Info" = "Info";
+"Delete" = "Eliminar";
+"InternalErrorMessage" = "Error interno. Por favor, inténtelo de nuevo.";
+"FaceNotFound" = "Cara no encontrada. Por favor, inténtelo de nuevo.";
+"CancelByUser" = "Proceso cancelado por el usuario.";
+"Timeout" = "Tiempo de espera excedido";
+"RegisterOk" = "Registro ok.";
+"RegisterFail" = "Registro fallido";
+"AuthenticationOk" = "Autenticación: OK.";
+"AuthenticationFail" = "Autenticación: ERROR.";
+"LivenessFail" = "Permanezca quieto y parpadee la próxima vez";
+"LivenessFailLight" = "Busque un lugar bien iluminado sin contraluces el próximo intento";
+"LivenessFailGlasses" = "Si está usando gafas, evite la aparición de reflejos el próximo intento";
+"LivenessFailPerformance" = "El rendimiento del dispositivo es inferior al esperado";

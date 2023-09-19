@@ -1,0 +1,15 @@
+"Ok" = "Ok";
+"Info" = "Info";
+"Delete" = "Delete";
+"InternalErrorMessage" = "Internal error. Please try again.";
+"FaceNotFound" = "Face not found. Please try again.";
+"CancelByUser" = "User cancelled the process.";
+"Timeout" = "Timeout process.";
+"RegisterOk" = "Register ok.";
+"RegisterFail" = "Register fail";
+"AuthenticationOk" = "Authentication ok.";
+"AuthenticationFail" = "Authentication fail.";
+"LivenessFail" = "Remain still and blink next time";
+"LivenessFailLight" = "Look for an illuminated place with no backlighting next time";
+"LivenessFailGlasses" = "If you are wearing glasses, avoid the reflections next time";
+"LivenessFailPerformance" = "The performance of the device is lower than expected";
